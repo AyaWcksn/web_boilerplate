@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Source+Sans+Pro:wght@300;400;600&family=Work+Sans:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+ /* Navigation */
+.navBar #icon {
+  color: #f17e3a;
+	transition: 0.4s;
+	font-size: 100%;
+}
+/* Header */
+.headerSection{
+	min-height: 100vh;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url("../assets/img/bg.png");
+	padding-top: 260px
+}
+.headerSection .headerText {
+}
+
+/* Hiring */
+.hiringSection {
+	min-height: 100vh;
+	padding-top :50px
+}
+
+.video-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+}
+
+.video-responsive iframe {
+  left: 0;
+  top: 0;
+  position: absolute;
+	height: 100%;
+	width: 100%;
+}
+
+/* About */
+.firstSection {
+	padding-top: 160px;
+	padding-bottom: 100px;
+	background-color: #000;
+	color: #fff
+}
+.firstList {
+	padding-top: 70px
+}
+.secondSection {
+	padding-top: 160px;
+	padding-bottom: 100px;
+}
+.thirdSection {
+	padding-top: 160px;
+	padding-bottom: 100px;
+	background-color: #000;
+	color: #fff
+}
+.textFle {
+	display: flex;
+	align-items: center;
+}
+
+/* Wonder */
+.wonderSection {
+min-height: 295px
+}

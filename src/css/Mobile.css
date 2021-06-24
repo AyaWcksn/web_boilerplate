@@ -1,0 +1,55 @@
+@media only screen and (min-width: 992px) {
+	/*Navbar*/
+	.navBar #icon {
+		transition: 0.4s;
+		font-size: 100%
+	}
+	/*Header*/
+	.headerSection {
+		padding: 300px;
+		font-size: 30rem
+	}
+	/* Hiring */
+	.hiringSection {
+	padding: 102px;
+	}
+	.video-responsive iframe {
+	  left: 0;
+	  top: 0;
+	  position: absolute;
+		height: 100%;
+		width: 100%
+	}
+.strokeText {
+  font-weight: 700;
+  font-size: 5em;
+  color: transparent;
+  -webkit-text-stroke: 1px;
+  -webkit-text-stroke-color: #fff;
+	display: flex;
+}
+}
+@media only screen and (max-width: 600px) {
+.youtubeSection {
+	margin-top: 150px;
+}
+.aboutTitle {
+	font-size: 1.5rem
+}
+.listText {
+	font-size: 1rem
+}
+.strokeText {
+  font-weight: 700;
+  font-size: 3em;
+  color: transparent;
+  -webkit-text-stroke: 1px;
+  -webkit-text-stroke-color: #fff;
+	display: flex;
+}
+.textFlex {
+	display: flex;
+	align-items: baseline
+}
+
+}
